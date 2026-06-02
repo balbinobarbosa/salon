@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Studio Elegance | Beleza e Estética</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <div class="logo">
+            <a href="#inicio">
+                <img src="img/salon-2.png" alt="Studio Nubbya Reis">
+            </a>
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#agendamento">Solicitar Agendamento</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </div>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="overlay">
+        <h1>Venha Realçar Sua Beleza</h1>
+
+        <p>
+            Cortes, coloração, manicure, maquiagem e tratamentos
+            realizados por profissionais especializados.
+        </p>
+
+        <a
+            href="https://api.whatsapp.com/send/?phone=85985956867"
+            target="_blank"
+            class="btn"
+        >
+            Agendar Horário
+        </a>
+    </div>
+</section>
+
+<section id="sobre" class="sobre">
+    <div class="container">
+        <h2>Sobre Nós</h2>
+
+        <p>
+            No Studio Nubbya Reis, cada detalhe é pensado para valorizar sua beleza e elevar sua autoestima. Com mais de 10 anos de experiência, unimos conhecimento, dedicação e as melhores técnicas do mercado para oferecer uma experiência única e resultados excepcionais.
+        </p>
+    </div>
+</section>
+
+<section id="servicos" class="servicos">
+    <div class="container">
+
+        <h2>Nossos Serviços</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fas fa-scissors"></i>
+                <h3>Corte Feminino</h3>
+                <p>Estilo moderno e personalizado.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-palette"></i>
+                <h3>Coloração</h3>
+                <p>Técnicas atualizadas e produtos premium.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-hand-sparkles"></i>
+                <h3>Manicure</h3>
+                <p>Acabamento impecável e durabilidade.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-spa"></i>
+                <h3>Tratamentos</h3>
+                <p>Hidratação, reconstrução e nutrição.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="galeria" class="galeria">
+
+    <div class="container">
+
+        <h2>Trabalhos Realizados</h2>
+
+        <div class="carousel">
+
+        <div class="carousel-track">
+
+            <img src="img/trabalho1.png">
+            <img src="img/trabalho2.png">
+            <img src="img/trabalho3.png">
+            <img src="img/trabalho4.png">
+            <img src="img/trabalho5.png">
+            <img src="img/trabalho6.png">
+            <img src="img/trabalho7.png">
+
+        </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="agendamento" class="agendamento">
+
+    <div class="container">
+
+        <h2>Agende seu Horário</h2>
+
+        <form id="formWhatsapp">
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Seu nome"
+                required
+            >
+
+            <select id="servico" required>
+                <option value="">Selecione um serviço</option>
+                <option>Corte Feminino</option>
+                <option>Coloração</option>
+                <option>Escova</option>
+                <option>Manicure</option>
+                <option>Pedicure</option>
+                <option>Maquiagem</option>
+            </select>
+
+            <input
+                type="date"
+                id="data"
+                required
+            >
+
+            <textarea
+                id="obs"
+                rows="4"
+                placeholder="Observações"
+            ></textarea>
+
+            <button type="submit">
+                Agendar pelo WhatsApp
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section id="contato" class="instagram-section">
+
+    <h2>Veja Nossos Resultados Reais</h2>
+
+    <p>
+        Acompanhe transformações, bastidores e novidades
+        diretamente no Instagram.
+    </p>
+
+    <a
+        href="https://instagram.com/studionubbyareis"
+        target="_blank"
+        class="instagram-btn"
+    >
+        <i class="fab fa-instagram"></i>
+        @studionubbyareis
+    </a>
+
+</section>
+
+<section class="contato">
+
+    <div class="container">
+
+        <h2>Localização</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.8984090856334!2d-38.520882200000045!3d-3.8319715999999975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74fbf4e336959%3A0x2afd02f3855c11ab!2sStudio%20Nubbya%20Reis!5e0!3m2!1spt-BR!2sbr!4v1780364137214!5m2!1spt-BR!2sbr" 
+            width="300" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+</section>
+
+<footer>
+
+    <p><img src="img/salon-2.png" alt="Studio Nubbya Reis"></p>
+
+</footer>
+
+<a
+ class="whatsapp-float"
+ href="https://api.whatsapp.com/send/?phone=85985956867"
+ target="_blank"
+>
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
